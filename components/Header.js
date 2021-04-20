@@ -1,10 +1,13 @@
 import Image from "next/image";
+import HeaderItem from "./HeaderItem";
 function Header() {
   return (
     <header className="header">
-      <h1>This is the header</h1>
+      <div>
+        <HeaderItem />
+      </div>
       <Image
-        src="https://links.papareact.com/us6"
+        src="https://links.papareact.com/ua6"
         width={200}
         height={100}
         className="object-contain"
