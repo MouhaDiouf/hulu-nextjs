@@ -12,7 +12,7 @@ function Header() {
   return (
     <header className="header">
       <div>
-        <HeaderItem title="Home" Icon={HomeIcom} />
+        <HeaderItem title="HOME" Icon={HomeIcon} />
       </div>
       <Image
         src="https://links.papareact.com/ua6"
