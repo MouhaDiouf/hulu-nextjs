@@ -1,10 +1,18 @@
 import Image from "next/image";
 import HeaderItem from "./HeaderItem";
+import {
+  BadgeCheckIcon,
+  CollectionIcon,
+  HomeIcon,
+  LightningBoltIcon,
+  SearchIcon,
+  UserIcon,
+} from "@heroicons/react/outline";
 function Header() {
   return (
     <header className="header">
       <div>
-        <HeaderItem />
+        <HeaderItem title="Home" Icon={HomeIcom} />
       </div>
       <Image
         src="https://links.papareact.com/ua6"
